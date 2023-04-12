@@ -20,7 +20,7 @@ nav:
   - Hospitals: ''
   - Testimonials: ''
   - About Me: ''
-  - Contact: ''
+  - Contact: 'contact.md'
 
 
 theme:
