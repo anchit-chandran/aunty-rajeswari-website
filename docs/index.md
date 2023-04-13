@@ -1,5 +1,6 @@
 ---
 title: Home
+template: home.html
 ---
 
 ## Devanna Rajeswari

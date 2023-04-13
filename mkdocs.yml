@@ -25,6 +25,7 @@ nav:
 
 theme:
   name: material 
+  custom_dir: overrides
   # logo: _assets/_images/logo-gear.png
   features:
     - navigation.expand
