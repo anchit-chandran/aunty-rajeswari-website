@@ -33,6 +33,10 @@
     font-size: 0.7rem;
     
 }
+.circle_headshot {
+    height: 30em;
+    width: auto;
+}
 
 /* BUTTONS */
 button.custom_button {
