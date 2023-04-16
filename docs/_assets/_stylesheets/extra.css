@@ -19,7 +19,7 @@
 /* masthead */
 .masthead_section {
     background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71) ), url('../_images/bg-stethoscope.png');
-    height: 88vh;
+    /* height: 88vh; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -29,21 +29,28 @@
     background-color: var(--masthead-accent);
 }
 
-.callout_box>p {
-    font-size: 0.7rem;
-    
+.callout_p {
+    text-align: justify;
 }
-.circle_headshot {
-    height: 30em;
-    width: auto;
+
+/* HELLO SECTION */
+
+.hello_section h6 {
+    text-align: justify;
 }
 
 /* BUTTONS */
 button.custom_button {
     background: var(--button);
+    border-radius: 50px;
 }
 
 button.custom_button:hover {
     background: var(--main);
     color: var(--white);
+}
+
+/* FONT STYLINGS */
+.main_col_font {
+    color: var(--main);
 }
