@@ -19,18 +19,23 @@
 /* masthead */
 .masthead_section {
     background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71) ), url('../_images/bg-stethoscope.png');
+    height: 88vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.card.headshot_card {
+.callout_box {
+    height: 100%;
     background-color: var(--masthead-accent);
 }
 
 .callout_box>p {
     font-size: 0.7rem;
     
-    
+}
+.circle_headshot {
+    height: 30em;
+    width: auto;
 }
 
 /* BUTTONS */
@@ -41,9 +46,4 @@ button.custom_button {
 button.custom_button:hover {
     background: var(--main);
     color: var(--white);
-}
-
-p.headshot_description {
-    font-size: 1.4em;
-    text-align: justify;
 }
