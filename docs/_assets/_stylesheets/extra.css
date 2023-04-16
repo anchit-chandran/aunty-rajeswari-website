@@ -8,7 +8,9 @@
 }
 
 /* nav bg color */
-.md-header, .md-tabs {
+.md-header, .md-tabs,
+.md-nav--primary .md-nav__title[for=__drawer],
+.md-nav--primary .md-nav {
     background-color: var(--main) !important;
 }
 
