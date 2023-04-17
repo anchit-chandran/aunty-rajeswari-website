@@ -1,14 +1,17 @@
 :root {
-    --main: #862ca2;
+    --main: rgb(134, 44, 162);
     --accent: #C98986;
-    --masthead-accent: rgba(201, 137, 134, 0.5);
+    --masthead-accent: rgb(134, 44, 162, 0.75);
     --white: #ecdbcb;
     --button: #F6BDD1;
     --button-hover: #d69fb2;
 }
 
+
 /* nav bg color */
-.md-header, .md-tabs {
+.md-header, .md-tabs,
+.md-nav--primary .md-nav__title[for=__drawer],
+.md-nav--primary .md-nav {
     background-color: var(--main) !important;
 }
 
@@ -18,7 +21,7 @@
 
 /* masthead */
 .masthead_section {
-    background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71) ), url('../_images/bg-stethoscope.png');
+    background: linear-gradient( rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81) ), url('../_images/bg-stethoscope.png');
     /* height: 88vh; */
     background-repeat: no-repeat;
     background-size: cover;
