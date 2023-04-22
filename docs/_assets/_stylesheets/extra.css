@@ -66,3 +66,9 @@ a.custom_button:hover {
 .main_col_font {
     color: var(--main);
 }
+
+/* FOOTER STYLINGS */
+footer.md-footer {
+    background-color: var(--main);
+    color: var(--white);
+}
