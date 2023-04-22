@@ -34,7 +34,7 @@
 }
 
 .title_wrapper p {
-    font-size: medium;
+    font-size: large;
 }
 
 .masthead_container img {
@@ -48,12 +48,16 @@
 }
 
 /* BUTTONS */
-button.custom_button {
+a.custom_button {
+
     background: var(--button);
+    color: black;
     border-radius: 50px;
+    border: 0px;
 }
 
-button.custom_button:hover {
+a.custom_button:hover {
+       
     background: var(--main);
     color: var(--white);
 }
