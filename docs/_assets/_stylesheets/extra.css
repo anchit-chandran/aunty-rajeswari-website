@@ -5,6 +5,15 @@
     --white: #ecdbcb;
     --button: #F6BDD1;
     --button-hover: #d69fb2;
+
+    --md-text-font-family: 
+
+    --md-mermaid-font-family: var(--md-text-font-family),sans-serif;
+    --md-mermaid-edge-color: var(--md-code-fg-color);
+    --md-mermaid-node-bg-color: var(--md-accent-fg-color--transparent);
+    --md-mermaid-node-fg-color: var(--md-accent-fg-color);
+    --md-mermaid-label-bg-color: var(--md-default-bg-color);
+    --md-mermaid-label-fg-color: var(--md-code-fg-color);
 }
 
 
@@ -20,35 +29,35 @@
 }
 
 /* masthead */
-.masthead_section {
-    background: linear-gradient( rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81) ), url('../_images/bg-stethoscope.png');
-    /* height: 88vh; */
-    background-repeat: no-repeat;
-    background-size: cover;
+.masthead_container h1,h2,h3,h4,h5,h6,p {
+    color: var(--main);
 }
 
-.callout_box {
-    height: 100%;
-    background-color: var(--masthead-accent);
+.title_wrapper p {
+    font-size: large;
 }
 
-.callout_p {
-    text-align: justify;
+.masthead_container img {
+    border: 5px solid var(--main);
+    border-radius: 50%;
+    width: 15rem;
 }
 
-/* HELLO SECTION */
-
-.hello_section h6 {
+.masthead_description {
     text-align: justify;
 }
 
 /* BUTTONS */
-button.custom_button {
+a.custom_button {
+
     background: var(--button);
+    color: black;
     border-radius: 50px;
+    border: 0px;
 }
 
-button.custom_button:hover {
+a.custom_button:hover {
+       
     background: var(--main);
     color: var(--white);
 }
@@ -56,4 +65,10 @@ button.custom_button:hover {
 /* FONT STYLINGS */
 .main_col_font {
     color: var(--main);
+}
+
+/* FOOTER STYLINGS */
+footer.md-footer {
+    background-color: var(--main);
+    color: var(--white);
 }
