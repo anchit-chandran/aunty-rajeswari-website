@@ -1,6 +1,6 @@
-{% extends "main.html" %} 
+{% extends "main.html" %}
 
-{% block tabs %} 
+{% block tabs %}
 
 
 
@@ -15,9 +15,18 @@
 
 <!-- STYLE OVERRIDES JUST FOR INDEX PAGE -->
 <style>
-  /* Hide the content */
-  .md-main {
-    display: none;
+  @media screen and (min-width: 76.25em) {
+    .md-main {
+      display: none
+    }
+  }
+  @media screen and (max-width: 76.1875em) {
+    article {
+      display: none;
+    }
+    .md-main__inner {
+      margin-top: 0em;
+    }
   }
 
   .masthead_container h1,
@@ -36,8 +45,9 @@
   <div class="row my-md-0 my-3 justify-content-center">
     <div class="col title_wrapper my-md-3 px-0 text-center">
 
-      <div class="col">
-        <h1 class="mb-0">Miss Devanna Rajeswari <p class=" ms-md-3 d-inline-block">MBBS, Dip in Obstetrics, FRCOG, MRCPI</p>
+      <div class="col px-1">
+        <h1 class="mb-0">Miss Devanna Rajeswari <p class=" ms-md-3 d-inline-block">MBBS, Dip in Obstetrics, FRCOG, MRCPI
+          </p>
         </h1>
         <h5 class="text-center">Consultant Gynaecologist & Obstetrician</h5>
       </div>
@@ -45,14 +55,15 @@
 
       <div class="col py-3 d-flex flex-column justify-content-center align-items-center">
         <!-- <div class="row justify-content-center align-items-center"> -->
-          <div class="col-12 col-md-4 d-flex justify-content-center"><img src="_assets/_images/headshot.png" alt=""
-              class="img"></div>
-          <div class="col-12 col-md-6 px-3">
-            <h6 class="masthead_description m-0 pt-3 px-1 px-md-0">Miss Rajeswari has over xxx years of experience in Obstetrics and
-              Gynaecology. She has been working at Ashford and St Peter's Hospital since 2008. Her special interests
-              include XX, YY, ZZ.</h6>
-            <a class="btn btn-primary custom_button mt-4" href="">Get in touch</a>
-          </div>
+        <div class="col-12 col-md-4 d-flex justify-content-center"><img src="_assets/_images/headshot.png" alt=""
+            class="img"></div>
+        <div class="col-12 col-md-6 px-3">
+          <h6 class="masthead_description m-0 pt-3 px-1 px-md-0">Miss Rajeswari has over xxx years of experience in
+            Obstetrics and
+            Gynaecology. She has been working at Ashford and St Peter's Hospital since 2008. Her special interests
+            include XX, YY, ZZ.</h6>
+          <a class="btn btn-primary custom_button mt-4" href="">Get in touch</a>
+        </div>
         <!-- </div> -->
       </div>
 
@@ -63,7 +74,7 @@
 {% endblock %}
 
 <!-- Content -->
-{% block content %}{% endblock %}
+{% block content %}<span></span>{% endblock %}
 
 <!-- Application footer -->
 {% block footer %}{{ super() }}{% endblock %} {% block scripts %}
