@@ -5,15 +5,6 @@
     --white: #ecdbcb;
     --button: #F6BDD1;
     --button-hover: #d69fb2;
-
-    --md-text-font-family: 
-
-    --md-mermaid-font-family: var(--md-text-font-family),sans-serif;
-    --md-mermaid-edge-color: var(--md-code-fg-color);
-    --md-mermaid-node-bg-color: var(--md-accent-fg-color--transparent);
-    --md-mermaid-node-fg-color: var(--md-accent-fg-color);
-    --md-mermaid-label-bg-color: var(--md-default-bg-color);
-    --md-mermaid-label-fg-color: var(--md-code-fg-color);
 }
 
 
@@ -29,9 +20,6 @@
 }
 
 /* masthead */
-.masthead_container h1,h2,h3,h4,h5,h6,p {
-    color: var(--main);
-}
 
 .title_wrapper p {
     font-size: large;
@@ -40,7 +28,7 @@
 .masthead_container img {
     border: 5px solid var(--main);
     border-radius: 50%;
-    width: 15rem;
+    width: 12rem;
 }
 
 .masthead_description {
@@ -72,3 +60,19 @@ footer.md-footer {
     background-color: var(--main);
     color: var(--white);
 }
+
+@media (max-width: 767px) {
+    /* Set font size for mobile devices */
+    .masthead_container h1 {
+        font-size: calc(1.375rem + 1vw);
+        text-align: center;
+    }
+
+    .masthead_container h5 {
+        font-size: 2.4em;
+        text-align: center;
+    }
+    img.img {
+        width: 10rem;
+    }
+  }
