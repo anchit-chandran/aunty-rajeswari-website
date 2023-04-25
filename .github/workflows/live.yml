@@ -1,4 +1,4 @@
-name: Build MediCode Website
+name: Build Website
 on:
   push:
     branches:
