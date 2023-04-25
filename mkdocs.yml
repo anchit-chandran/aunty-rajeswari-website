@@ -47,6 +47,7 @@ watch:
 
 extra_css:
   - _assets/_stylesheets/extra.css
+  
 
 # footer links and variables
 extra:
