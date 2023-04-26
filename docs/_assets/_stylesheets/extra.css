@@ -40,11 +40,19 @@ footer.md-footer {
     .headshot_col.h-75 {
         height: 40%!important;
     }
+    .custom_button {
+        margin: 0em auto;
+    }
+    img.img-lg.img-sm {
+        box-shadow: 7px 10px var(--main);
+    }
 }
 
 /* UP TO LARGE AND ABOVE SIZE */
 @media (min-width: 769px) {
-
+    .headshot_col {
+        height: 75%!important;
+    }
 }
 
 /* FONT STYLINGS */
@@ -54,7 +62,7 @@ footer.md-footer {
 
 /* masthead */
 .masthead {
-    height: 100vh;
+    height: 80vh;
     color: var(--main);
     
 }
@@ -73,7 +81,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 img.img-lg {
-    height: 75%;
+    height: 65%;
+    box-shadow: 33px 43px var(--main);
 }
 
 
