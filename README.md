@@ -1,2 +1,1 @@
-# dr-rajeswari-website
-Website for Dr Rajeswari
+# Website for Miss Devanna Rajeswari
