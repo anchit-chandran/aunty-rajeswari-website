@@ -38,7 +38,7 @@ theme:
   palette:
     scheme: dark
   font:
-    text: Montserrat
+    text: Lustria
     code: Roboto Mono
 
 # additional directories to watch when running `mkdocs serve`
