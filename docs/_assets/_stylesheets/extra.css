@@ -7,7 +7,7 @@
     --button: #F6BDD1;
     --button-hover: #d69fb2;
     --header-font: 'Playfair Display', serif;
-    --md-primary-fg-color:        var(--main)!important;
+    --md-primary-fg-color:        rgb(134, 44, 162)!important;
     --md-primary-fg-color--light: #ECB7B7;
     --md-primary-fg-color--dark:  #90030C;
   
@@ -24,3 +24,73 @@ footer.md-footer {
 
 /* BELOW ONLY FRONTPAGE */
 
+/* UP TO MD SIZE */
+@media (max-width: 768px) {
+    .headshot_col.h-75 {
+        height: 40%!important;
+    }
+    .custom_button {
+        margin: 0em auto;
+    }
+    img.img-lg.img-sm {
+        box-shadow: 7px 10px var(--main);
+    }
+}
+
+/* UP TO LARGE AND ABOVE SIZE */
+@media (min-width: 769px) {
+    .headshot_col {
+        height: 75%!important;
+    }
+}
+
+/* FONT STYLINGS */
+.main_col_font {
+    color: var(--main);
+}
+
+/* masthead */
+.masthead {
+    height: 80vh;
+    color: var(--main);
+    
+}
+
+.masthead .container {
+    min-height: 100%;
+    flex-grow: 1;
+}
+
+.masthead h1,
+.masthead h2,
+.masthead h3,
+.masthead h4,
+.masthead h5,
+.masthead h6 {
+    font-family: var(--header-font);
+}
+
+.muted {
+    color: var(--muted);
+}
+
+img.img-lg {
+    height: 65%;
+    box-shadow: 14px 20px var(--main);
+}
+
+
+/* BUTTONS */
+a.custom_button {
+
+    background: var(--button);
+    color: black;
+    border-radius: 50px;
+    border: 0px;
+}
+
+a.custom_button:hover {
+       
+    background: var(--main);
+    color: var(--white);
+}
