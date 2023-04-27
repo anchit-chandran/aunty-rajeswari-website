@@ -16,10 +16,25 @@ dev_addr: "127.0.0.1:8001"
 
 nav:
   - "index.md"
-  - About: 'about.md'
-  - Conditions: 'conditions.md'
-  - Testimonials: 'testimonials.md'
-  - Contact: 'contact.md'
+  - 'about.md'
+  - Conditions:
+    - 'conditions.md'
+    - General General Gynaecology:
+      - Colposcopy: ''
+      - Contraception (including coil and implant insertion and removal): ''
+      - Adolescent and paediatric gynae: ''
+      - Prolapse repair: ''
+    - Menopause:
+      - Hormone Replacement Therapy: ''
+      - Perimenopause: ''
+    - Menstrual Disorders:
+      - Heavy periods: ''
+      - Irregular periods: ''
+
+
+
+  - 'testimonials.md'
+  - 'contact.md'
 
 
 theme:
@@ -47,7 +62,14 @@ watch:
 
 extra_css:
   - _assets/_stylesheets/extra.css
-  
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 # footer links and variables
 extra:
