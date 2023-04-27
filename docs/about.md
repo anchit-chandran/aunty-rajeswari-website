@@ -1,38 +1,15 @@
-## Miss Devanna Rajeswari
+---
+title: About
+---
 
-![headshot](./_assets/_images/headshot.png)
+<figure markdown>
+  ![headshot](./_assets/_images/headshot.jpg){ width="400" align=center }
+  <figcaption>Miss Devanna Rajeswari MBBS MRCPI FRCOG</figcaption>
+</figure>
 
-Miss Devanna Rajeswari is a Consultant Gynaecologist who specialises in the wellbeing of women’s health especially with regards to pelvic pain and discomfort, prolapse, pelvic floor disorder, endometriosis, menstrual disorders, heavy or irregular bleeding, HRT and all problems connected to menopause which can be a great source of distress to women. Effective treatment can dramatically improve quality of life.  Plus she has special interests in Polycystic ovarian disease which can affect the menstrual cycle and fertility of a woman. 
+With training in India, Kenya, and the Republic of Ireland, Miss Rajeswari brings a wealth of international experience to her role as a Consultant Obstetrician and Gynaecologist at St. Peter's Hospital. Following her higher training in North West London, she was appointed to her current position in 2008, where she has gained a reputation for outstanding patient care.
 
- Miss Rajeswari also performs Colposcopies and carries out treatment in women who have abnormal cervical smears. 
+Miss Rajeswari has been awarded multiple Clinical Excellence Awards for her exceptional work. 
 
-Miss Rajeswari’s also specialises in Obstetrics diabetes and other endocrine disorders during pregnancy. She also offers pre-pregnancy counselling for women with diabetes which aids in improving pregnancy outcome. 
-
-In early 2022, Miss Devanna Rajeswari was awarded the iWantGreatCare certificate of excellence for delivering outstanding care.
-
-## Clinical Interests
-
-- Anterior repair (bladder repair) surgery
-- Adolescent Gynaecology
-- Colposcopy for Abnormal Smear
-- Endometrial ablation
-- Fertility investigation and tests
-- Hysteroscopy and Biopsy and Mirena coil
-- Incontinence
-- Irregular Periods
-- Heavy Periods
-- Laparoscopic ovarian cystectomy
-- Laparoscopy (keyhole surgery)
-- Menopause
-- Obstetrics (maternity) consultation
-- Oophorectomy (ovary removal surgery)
-- Perimenopause
-- Private gynaecology and women's health
-- Prolapse repair
-- Smear test (cervical screening)
-- Laparoscopic hysterectomy (womb removal)
-- Uterine cancer (womb cancer)
-- Vaginal hysterectomy (uterus removal) surgery
-- Vaginal prolapse (colporrhaphy) posterior repair
-
-
+## #TODO - ADD BOOK CHAPTER, TO BE PROVIDED
+She has also contributed to the medical community by writing a chapter in a book on the topic of obstetrics and gynaecology.
