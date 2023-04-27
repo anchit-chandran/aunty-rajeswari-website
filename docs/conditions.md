@@ -6,10 +6,10 @@ Miss Rajeswari specialises in Colposcopy and the treatment of abnormal smears. I
 
 ## General General Gyn﻿aecology
 
-- Colposcopy
+- [Colposcopy](https://www.circlehealthgroup.co.uk/treatments/colposcopy)
 - Contraception (including coil and implant insertion and removal)
 - Adolescent and paediatric gynae
-- Prolapse repair
+- [Prolapse repair](https://www.circlehealthgroup.co.uk/treatments/posterior-repair)
 
 ## Menopause
 
@@ -20,5 +20,3 @@ Miss Rajeswari specialises in Colposcopy and the treatment of abnormal smears. I
 
 - Heavy periods
 - Irregular periods
-
-Please see the navigation on the left for further information.
