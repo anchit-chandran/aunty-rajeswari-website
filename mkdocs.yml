@@ -55,6 +55,7 @@ theme:
   font:
     text: Lustria
     code: Roboto Mono
+  logo: _assets/_images/logo.png
 
 # additional directories to watch when running `mkdocs serve`
 watch:

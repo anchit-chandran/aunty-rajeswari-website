@@ -1,5 +1,5 @@
 :root {
-    --main: rgb(134, 44, 162);
+    --main: #862ca2;
     --accent: #C98986;
     --muted: #5E5B52;
     --masthead-accent: rgb(134, 44, 162, 0.75);
@@ -20,6 +20,11 @@
 
 .md-nav__item .md-nav__link--active {
     color: var(---accent);
+}
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 5rem !important;
+    width: auto;
 }
 
 
