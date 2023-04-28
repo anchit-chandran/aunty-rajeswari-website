@@ -7,15 +7,20 @@
     --button: #F6BDD1;
     --button-hover: #d69fb2;
     --header-font: 'Playfair Display', serif;
-    --md-primary-fg-color: rgb(134, 44, 162)!important;
-    --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #90030C;
-    --md-accent-fg-color: var(--main);
+    /* --md-primary-fg-color: rgb(134, 44, 162)!important; */
+    /* --md-accent-fg-color: var(--main); */
+    /* --md-default-fg-color: var(--main); */
+    --md-default-fg-color--lighter: var(--accent);
+    --md-default-fg-color--lightest: rgb(201, 137, 134, 0.2);
   
 }
 
 /* nav bg color */
 .md-header, .md-tabs {
+    background-color: var(--main) !important;
+}
+
+.md-nav--primary .md-nav__title[for="__drawer"] {
     background-color: var(--main) !important;
 }
 
