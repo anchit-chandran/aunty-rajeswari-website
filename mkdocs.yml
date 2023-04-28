@@ -50,6 +50,7 @@ theme:
     - navigation.top
     - navigation.tracking
     # - toc.integrate
+    - toc.follow
   palette:
     scheme: dark
   font:

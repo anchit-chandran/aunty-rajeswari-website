@@ -10,6 +10,7 @@
     --md-primary-fg-color: rgb(134, 44, 162)!important;
     --md-primary-fg-color--light: #ECB7B7;
     --md-primary-fg-color--dark:  #90030C;
+    --md-accent-fg-color: var(--main);
   
 }
 
