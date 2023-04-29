@@ -12,10 +12,14 @@
     /* --md-default-fg-color: var(--main); */
     --md-default-fg-color--lighter: var(--accent);
     --md-default-fg-color--lightest: rgb(201, 137, 134, 0.2);
-  
+    --md-typeset-a-color: var(--main);
 }
 
-/* nav bg color */
+/* nav  */
+.md-header__title>.md-header__ellipsis {
+    font-size: 2.2em;
+}
+
 .md-header, .md-tabs {
     background-color: var(--main) !important;
 }
@@ -41,8 +45,6 @@ footer.md-footer {
     color: var(--white);
 }
 
-/* BELOW ONLY FRONTPAGE */
-
 /* UP TO MD SIZE */
 @media (max-width: 768px) {
     .headshot_col.h-75 {
@@ -54,14 +56,46 @@ footer.md-footer {
     img.img-lg.img-sm {
         box-shadow: 7px 10px var(--main);
     }
+    .main_text_col {
+        text-align: center;
+        /* padding-left: 0 !important;
+        padding-right: 0 !important; */
+    }
+    .main_text_col>h1 {
+        font-size: 3.8em;
+    }
+    .main_text_col>h5 {
+        font-size: 1.5em;
+    }
+    .main_text_col>h6 {
+        font-size: 1.5em;
+    }
+    .masthead_description {
+        text-align: justify;
+    }
+    .masthead_description > :first-child {
+        font-size: 1rem;
+    }
+    .further_description {
+        display: none;
+    }
+    a.custom_button {
+        font-size: 1.4rem;
+    }
 }
 
+@media screen and (max-width: 76.1875em) {
+    .md-header__title>.md-header__ellipsis {
+        font-size: 1em;
+    }
+}
 /* UP TO LARGE AND ABOVE SIZE */
 @media (min-width: 769px) {
     .headshot_col {
         height: 75%!important;
     }
 }
+
 
 /* FONT STYLINGS */
 .main_col_font {
