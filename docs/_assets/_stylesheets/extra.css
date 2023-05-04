@@ -1,5 +1,6 @@
 :root {
     --main: #862ca2;
+    --main-light: rgba(172, 61, 206, 0.75);
     --accent: #C98986;
     --muted: #5E5B52;
     --masthead-accent: rgb(134, 44, 162, 0.75);
@@ -29,7 +30,7 @@
 }
 
 .md-nav__item .md-nav__link--active {
-    color: var(---accent);
+    /* color: var(--accent); */
 }
 
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
@@ -54,7 +55,7 @@ footer.md-footer {
         margin: 0em auto;
     }
     img.img-lg.img-sm {
-        box-shadow: 7px 10px var(--main);
+        box-shadow: 7px 10px var(--main-light);
     }
     .main_text_col {
         text-align: center;
@@ -129,7 +130,7 @@ footer.md-footer {
 
 img.img-lg {
     height: 65%;
-    box-shadow: 14px 20px var(--main);
+    box-shadow: 14px 20px var(--main-light);
 }
 
 
