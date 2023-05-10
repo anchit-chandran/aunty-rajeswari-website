@@ -8,7 +8,7 @@ In addition to this, Miss Rajeswari offers treatments for the following conditio
 
 ## Menstrual Disorders
 
-- Irregular periods
+- [Irregular periods](./menstrual_disorders/irregular_periods.md)
 - Prolonged periods
 - Heavy periods
 - Pelvic pain

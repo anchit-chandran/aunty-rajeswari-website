@@ -1,3 +1,0 @@
-# Colposcopy
-
-Some more information on colposcopy...
