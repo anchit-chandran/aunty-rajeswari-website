@@ -7,9 +7,8 @@ title: About
   <figcaption>Miss Devanna Rajeswari MBBS MRCPI FRCOG</figcaption>
 </figure>
 
-With training in India, Kenya, and the Republic of Ireland, Miss Rajeswari brings a wealth of international experience to her role as a Consultant Obstetrician and Gynaecologist at St. Peter's Hospital. Following her higher training in North West London, she was appointed to her current position in 2008, where she has gained a reputation for outstanding patient care.
+Miss Rajeswari has over 30 years of experience in the field of Gynaecology. Having trained in India, Kenya and the Republic of Ireland, Miss Rajeswari brings a wealth of experience and knowledge to treat patients. After completing her higher training in North West London, Miss Rajeswari was appointed Consultant Obstetrician and Gynaecologist in 2008. Miss Rajeswari has since been awarded the ‘Ashford and St. Peter’s Clinical Excellence Award’ twice for her outstanding patient care.
 
-Miss Rajeswari has been awarded multiple Clinical Excellence Awards for her exceptional work. 
+During this period, Miss Rajeswari also played an active role in educating trainees and students. Miss Rajeswari was selected to author a chapter in the Oxford Handbook of Obstetrics and Gynaecology.
 
-## #TODO - ADD BOOK CHAPTER, TO BE PROVIDED
-She has also contributed to the medical community by writing a chapter in a book on the topic of obstetrics and gynaecology.
+Miss Rajeswari has been awarded the Clinical Excellence Award twice for outstanding patient care.
