@@ -124,6 +124,7 @@ footer.md-footer {
     font-family: var(--header-font);
 }
 
+
 .muted {
     color: var(--muted);
 }
@@ -131,6 +132,36 @@ footer.md-footer {
 img.img-lg {
     height: 65%;
     box-shadow: 14px 20px var(--main-light);
+    transition: transform 0.2s;
+}
+
+img.img-lg:hover {
+    transform: scale(1.1);
+}
+
+/* ANIMATIONS */
+
+.main_text_col {
+    animation: fadeIn 2s;
+}
+
+.headshot_col{
+    animation: fadeIn 2.5s;
+}
+
+.masthead_description {
+    animation: fadeIn 3s;
+}
+
+.button_contact_wrapper {
+    animation: fadeIn 3.5s;
+}
+
+
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 
