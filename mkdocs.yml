@@ -94,6 +94,9 @@ theme:
 watch:
   - overrides
 
+extra_files:
+  - CNAME
+
 extra_css:
   - _assets/_stylesheets/extra.css
 
