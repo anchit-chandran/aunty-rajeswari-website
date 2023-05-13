@@ -65,7 +65,7 @@ nav:
       - 'conditions/miscarriage/recurrent.md'
       - 'conditions/miscarriage/missed.md'
   - 'testimonials.md'
-  - 'contact.md'
+  - Contact: 'contact.md'
 
 
 theme:

@@ -214,3 +214,8 @@ a.custom_button:active {
       text-align: justify;
     }
   }
+
+  .card:hover {
+    transform: scale(1.03);
+    transition: transform .2s;
+}
