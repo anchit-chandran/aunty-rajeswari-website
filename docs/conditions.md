@@ -13,8 +13,8 @@ In addition to this, Miss Rajeswari offers treatments for the following conditio
 
 ## Hormonal disorders
 
-    - [Polycystic Ovarian Syndrome](https://www.nhs.uk/conditions/polycystic-ovary-syndrome-pcos/)
-    - Adolescent and Paediatric Gynaecology
+- [Polycystic Ovarian Syndrome](https://www.nhs.uk/conditions/polycystic-ovary-syndrome-pcos/)
+- Adolescent and Paediatric Gynaecology
 
 ## Colposcopy
 
@@ -26,7 +26,7 @@ In addition to this, Miss Rajeswari offers treatments for the following conditio
 ## Menopause
 
 - [Perimenopause](https://www.nhs.uk/conditions/menopause/)
-- [Hormone Replacement Therapy]()https://www.nhs.uk/conditions/hormone-replacement-therapy-hrt/
+- [Hormone Replacement Therapy](https://www.nhs.uk/conditions/hormone-replacement-therapy-hrt/)
 - Irregular bleeding in perimenopause / on HRT
 
 ## Fertility Problems
