@@ -10,12 +10,13 @@
 <link rel="stylesheet" href="../docs/_assets/_stylesheets/extra.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet">
 {{ super() }} {% endblock %}
 
 <!-- STYLE OVERRIDES JUST FOR INDEX PAGE -->
 <style>
-
   @media screen and (min-width: 76.25em) {
     .md-main {
       display: none
@@ -29,9 +30,7 @@
   }
 
   /* MOBILE ONLY */
-  @media (max-width: 576px) {
-
-}
+  @media (max-width: 576px) {}
 </style>
 <!-- STYLE OVERRIDES JUST FOR INDEX PAGE -->
 
@@ -48,13 +47,15 @@
         </div>
         <div class="row">
           <div class="col-md-10 masthead_description">
-            <p class="md-typeset lead">Miss Rajeswari is a Consultant Obstetrician and Gyncaeologist working at St. Peter's
+            <p class="md-typeset lead">Miss Rajeswari is a Consultant Obstetrician and Gyncaeologist working at St.
+              Peter's
               Hospital. She offers consultations and a variety of procedures and treatments for
               gynaecological issues.</p>
 
             <p class="md-typeset further_description lead">
               Miss Rajeswari trained in India and completed further training in Kenya and the Reupblic of Ireland. She
-              continued her higher training in North West London and was appointed as a Consultant at St. Peter's Hospital
+              continued her higher training in North West London and was appointed as a Consultant at St. Peter's
+              Hospital
               in 2008.
             </p>
           </div>
@@ -65,12 +66,47 @@
           </div>
         </div>
       </div>
-      <div class="col col-md-6 order-1 order-md-2 my-3 my-md-0  d-flex flex-column align-items-center justify-content-center headshot_col">
+      <div
+        class="col col-md-6 order-1 order-md-2 my-3 my-md-0  d-flex flex-column align-items-center justify-content-center headshot_col">
         <img src="_assets/_images/headshot.jpg" alt="" class="img-fluid d-block img-lg img-sm">
+      </div>
+      <div class="col">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h1>Hello</h1>
+            </div>
+            <div class="carousel-item">
+              <h1>Hello</h1>
+            </div>
+            <div class="carousel-item">
+              <h1>Hello</h1>
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
 </header>
+
 {{ super() }}
 
 {% endblock %}
