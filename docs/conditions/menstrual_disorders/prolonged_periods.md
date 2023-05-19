@@ -1,3 +1,0 @@
----
-title: Prolonged Periods
----
