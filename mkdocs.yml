@@ -17,61 +17,14 @@ dev_addr: "127.0.0.1:8001"
 nav:
   - "index.md"
   - 'about.md'
-  - Conditions:
-    - 'conditions/conditions.md'
-    - Menstrual Disorders:
-      - 'conditions/menstrual_disorders/irregular_periods.md'
-      - 'conditions/menstrual_disorders/prolonged_periods.md'
-      - 'conditions/menstrual_disorders/heavy_periods.md'
-      - 'conditions/menstrual_disorders/pelvic_pain.md'
-      - 'conditions/menstrual_disorders/premenstrual_tension.md'
-    - Colposcopy:
-      - 'conditions/colposcopy/abnormal_smear.md'
-      - 'conditions/colposcopy/hpv.md'
-      - 'conditions/colposcopy/lletz.md'
-      - 'conditions/colposcopy/bleeding_sex.md'
-    - Menopause:
-      - 'conditions/menopause/perimenopause.md'
-      - 'conditions/menopause/hrt.md'
-      - 'conditions/menopause/irregular_bleed.md'
-    - Fertility Problems:
-      - 'conditions/fertility/investigation.md'
-      - 'conditions/fertility/management.md'
-    - Contraception:
-      - 'conditions/contraception/counselling.md'
-      - 'conditions/contraception/copper_coil.md'
-      - 'conditions/contraception/mirena.md'
-    - Prolapse:
-      - 'conditions/prolapse/Bladder.md'
-      - 'conditions/prolapse/uterine.md'
-      - 'conditions/prolapse/bowel.md'
-    - Uterine Problems:
-      - 'conditions/uterine/fibroid.md'
-      - 'conditions/uterine/adenomyosis.md'
-      - 'conditions/uterine/polyp.md'
-    - Vulval and Vaginal Disorders:
-      - 'conditions/vulval/vaginismus.md'
-      - 'conditions/vulval/vulvodynia.md'
-      - 'conditions/vulval/vestibulitis.md'
-      - 'conditions/vulval/bartholin.md'
-    - Procedures:
-      - 'conditions/procedures/hysterectomy.md'
-      - 'conditions/procedures/oophorectomy.md'
-      - 'conditions/procedures/hysteroscopy.md'
-      - 'conditions/procedures/endometrial_ablation.md'
-      - 'conditions/procedures/polyp_removal.md'
-      - 'conditions/procedures/painful_sex.md'
-    - Management of miscarriage:
-      - 'conditions/miscarriage/recurrent.md'
-      - 'conditions/miscarriage/missed.md'
-  - 'testimonials.md'
+  - Testimonials: 'testimonials.md'
+  - Conditions: 'conditions.md'
   - Contact: 'contact.md'
 
 
 theme:
   name: material 
   custom_dir: overrides
-  # logo: _assets/_images/logo-gear.png
   features:
     - navigation.expand
     - navigation.footer # explicitly adds footer prev/next (Material4MkDocs9.0)

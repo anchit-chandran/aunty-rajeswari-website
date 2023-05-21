@@ -10,12 +10,13 @@
 <link rel="stylesheet" href="../docs/_assets/_stylesheets/extra.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet">
 {{ super() }} {% endblock %}
 
 <!-- STYLE OVERRIDES JUST FOR INDEX PAGE -->
 <style>
-
   @media screen and (min-width: 76.25em) {
     .md-main {
       display: none
@@ -29,15 +30,13 @@
   }
 
   /* MOBILE ONLY */
-  @media (max-width: 576px) {
-
-}
+  @media (max-width: 576px) {}
 </style>
 <!-- STYLE OVERRIDES JUST FOR INDEX PAGE -->
 
 <header class="masthead mb-5 mb-md-0 hero">
   <div class="container h-100">
-    <div class="row h-100 justify-content-center align-items-center">
+    <div class="row h-100 py-5 justify-content-center align-items-center">
       <div class="col-md-6 order-2 h-75 px-4 px-md-0 d-flex flex-column justify-content-evenly">
         <div class="row">
           <div class="col main_text_col">
@@ -48,13 +47,15 @@
         </div>
         <div class="row">
           <div class="col-md-10 masthead_description">
-            <p class="md-typeset lead">Miss Rajeswari is a Consultant Obstetrician and Gyncaeologist working at St. Peter's
+            <p class="md-typeset lead">Miss Rajeswari is a Consultant Obstetrician and Gyncaeologist working at St.
+              Peter's
               Hospital. She offers consultations and a variety of procedures and treatments for
               gynaecological issues.</p>
 
             <p class="md-typeset further_description lead">
               Miss Rajeswari trained in India and completed further training in Kenya and the Reupblic of Ireland. She
-              continued her higher training in North West London and was appointed as a Consultant at St. Peter's Hospital
+              continued her higher training in North West London and was appointed as a Consultant at St. Peter's
+              Hospital
               in 2008.
             </p>
           </div>
@@ -65,12 +66,328 @@
           </div>
         </div>
       </div>
-      <div class="col col-md-6 order-1 order-md-2 my-3 my-md-0  d-flex flex-column align-items-center justify-content-center headshot_col">
+      <div
+        class="col col-md-6 order-1 order-md-2 my-3 my-md-0  d-flex flex-column align-items-center justify-content-center headshot_col">
         <img src="_assets/_images/headshot.jpg" alt="" class="img-fluid d-block img-lg img-sm">
       </div>
+
+    </div>
+    <div class="row h-100 mb-5">
+      <div class="col-12">
+        <h2 class="muted">What her patients say</h2>
+        <hr>
+      </div>
+      <div class="col-12">
+        <div id="carouselTestimonialsIndicators" class="carousel slide">
+
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselTestimonialsIndicators" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></li>
+            <li data-bs-target="#carouselTestimonialsIndicators" data-bs-slide-to="1" aria-label="Slide 2"></li>
+            <li data-bs-target="#carouselTestimonialsIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-text">I took my mother in for a consultation she was very nervous and apprehensive
+                        but Dr Rajeshwari set such a calm environment and jsut took time to listen to my mum. I found Dr
+                        Rajeswari to be extremely professional and she also set my mind at rest as I could see she knew
+                        her stuff and she was able to provide a dianogsis immediately.</p>
+
+                      <div class="rating-wrapper">
+                        <p>Recommend</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="rating-wrapper">
+                        <p>Trust</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="rating-wrapper">
+                        <p>Listening</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="card-bottom mt-2">
+                        <p class="card-text muted"><small class="text-body-secondary">8th April 2023</small></p>
+                        <p class="card-text muted"><small class="text-body-secondary">Written by a private patient at <a
+                              href="" class="card-link">The Runnymede Hospital</a></small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-text">I took my mother in for a consultation she was very nervous and apprehensive
+                        but Dr Rajeshwari set such a calm environment and jsut took time to listen to my mum. I found Dr
+                        Rajeswari to be extremely professional and she also set my mind at rest as I could see she knew
+                        her stuff and she was able to provide a dianogsis immediately.</p>
+
+                      <div class="rating-wrapper">
+                        <p>Recommend</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="rating-wrapper">
+                        <p>Trust</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="rating-wrapper">
+                        <p>Listening</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="card-bottom mt-2">
+                        <p class="card-text muted"><small class="text-body-secondary">8th April 2023</small></p>
+                        <p class="card-text muted"><small class="text-body-secondary">Written by a private patient at <a
+                              href="" class="card-link">The Runnymede Hospital</a></small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <div class="row ">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-text">I took my mother in for a consultation she was very nervous and apprehensive
+                        but Dr Rajeshwari set such a calm environment and jsut took time to listen to my mum. I found Dr
+                        Rajeswari to be extremely professional and she also set my mind at rest as I could see she knew
+                        her stuff and she was able to provide a dianogsis immediately.</p>
+
+                      <div class="rating-wrapper">
+                        <p>Recommend</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="rating-wrapper">
+                        <p>Trust</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="rating-wrapper">
+                        <p>Listening</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="card-bottom mt-2">
+                        <p class="card-text muted"><small class="text-body-secondary">8th April 2023</small></p>
+                        <p class="card-text muted"><small class="text-body-secondary">Written by a private patient at <a
+                              href="" class="card-link">The Runnymede Hospital</a></small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-text">I took my mother in for a consultation she was very nervous and apprehensive
+                        but Dr Rajeshwari set such a calm environment and jsut took time to listen to my mum. I found Dr
+                        Rajeswari to be extremely professional and she also set my mind at rest as I could see she knew
+                        her stuff and she was able to provide a dianogsis immediately.</p>
+
+                      <div class="rating-wrapper">
+                        <p>Recommend</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="rating-wrapper">
+                        <p>Trust</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="rating-wrapper">
+                        <p>Listening</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="card-bottom mt-2">
+                        <p class="card-text muted"><small class="text-body-secondary">8th April 2023</small></p>
+                        <p class="card-text muted"><small class="text-body-secondary">Written by a private patient at <a
+                              href="" class="card-link">The Runnymede Hospital</a></small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <div class="row ">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-text">I took my mother in for a consultation she was very nervous and apprehensive
+                        but Dr Rajeshwari set such a calm environment and jsut took time to listen to my mum. I found Dr
+                        Rajeswari to be extremely professional and she also set my mind at rest as I could see she knew
+                        her stuff and she was able to provide a dianogsis immediately.</p>
+
+                      <div class="rating-wrapper">
+                        <p>Recommend</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="rating-wrapper">
+                        <p>Trust</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="rating-wrapper">
+                        <p>Listening</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="card-bottom mt-2">
+                        <p class="card-text muted"><small class="text-body-secondary">8th April 2023</small></p>
+                        <p class="card-text muted"><small class="text-body-secondary">Written by a private patient at <a
+                              href="" class="card-link">The Runnymede Hospital</a></small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-text">I took my mother in for a consultation she was very nervous and apprehensive
+                        but Dr Rajeshwari set such a calm environment and jsut took time to listen to my mum. I found Dr
+                        Rajeswari to be extremely professional and she also set my mind at rest as I could see she knew
+                        her stuff and she was able to provide a dianogsis immediately.</p>
+
+                      <div class="rating-wrapper">
+                        <p>Recommend</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="rating-wrapper">
+                        <p>Trust</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="rating-wrapper">
+                        <p>Listening</p>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <div class="card-bottom mt-2">
+                        <p class="card-text muted"><small class="text-body-secondary">8th April 2023</small></p>
+                        <p class="card-text muted"><small class="text-body-secondary">Written by a private patient at <a
+                              href="" class="card-link">The Runnymede Hospital</a></small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    
+        </div>
+      </div>
+
+
     </div>
   </div>
+  </div>
 </header>
+
 {{ super() }}
 
 {% endblock %}
