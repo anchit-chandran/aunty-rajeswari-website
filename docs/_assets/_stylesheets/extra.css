@@ -248,7 +248,3 @@ a.custom_button:active {
   width: 5%;
   background-color: red;
 }
-
-.carousel-item .row>.col-md-5 {
-  margin-bottom: 1em;
-}
