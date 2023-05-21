@@ -7,6 +7,7 @@
   --white: #ecdbcb;
   --button: #f6bdd1;
   --button-hover: #d69fb2;
+  --bs-link-hover-color: var(--main)!important;
   --header-font: "Playfair Display", serif;
   /* --md-primary-fg-color: rgb(134, 44, 162)!important; */
   /* --md-accent-fg-color: var(--main); */
@@ -112,16 +113,15 @@ footer.md-footer {
 }
 
 img.img-lg {
-  height: 65%;
+  max-width: 48%;
   box-shadow: 14px 20px var(--main-light);
-  transition: transform 0.2s;
-}
-
-img.img-lg:hover {
-  transform: scale(1.1);
 }
 
 /* ANIMATIONS */
+
+.masthead {
+  animation: fadeIn 2s;
+}
 
 .main_text_col {
   animation: fadeIn 2s;
@@ -226,6 +226,16 @@ a.custom_button:active {
   margin-bottom: 0;
 }
 
+#carouselTestimonialsIndicators .card {
+  height: 100%;
+}
+
+#carouselTestimonialsIndicators .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .card-bottom>p {
   margin-bottom: 0;
 }
@@ -247,4 +257,8 @@ a.custom_button:active {
 #carouselTestimonialsIndicators .carousel-control-next, .carousel-control-prev {
   width: 5%;
   background-color: red;
+}
+
+p.card-text {
+  color: var(--muted);
 }
