@@ -153,7 +153,7 @@ img.img-lg:hover {
 a.custom_button {
   background: var(--button);
   color: black;
-  border-radius: 50px;
+  border-radius: 0px;
   border: 0px;
   transition: all 0.3s ease-in-out; /* Add transition */
   transform: scale(1); /* Initial scale */
