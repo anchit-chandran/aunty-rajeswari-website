@@ -65,7 +65,6 @@ footer.md-footer {
 
 /* masthead */
 .masthead {
-  height: 80vh;
   color: var(--main);
 }
 
@@ -215,7 +214,41 @@ a.custom_button:active {
     }
   }
 
-  .card:hover {
-    transform: scale(1.03);
-    transition: transform .2s;
+
+
+.rating-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating-wrapper>p {
+  margin-bottom: 0;
+}
+
+.card-bottom>p {
+  margin-bottom: 0;
+}
+
+#carouselTestimonialsIndicators>.carousel-indicators {
+  position: inherit;
+}
+
+#carouselTestimonialsIndicators>.carousel-indicators li {
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--main)!important;
+}
+
+#carouselTestimonialsIndicators .carousel-control-next, .carousel-control-prev {
+  width: 5%;
+  background-color: red;
+}
+
+.carousel-item .row>.col-md-5 {
+  margin-bottom: 1em;
 }
