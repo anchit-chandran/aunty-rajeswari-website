@@ -15,14 +15,15 @@ copyright: Copyright &copy; 2023 Devanna Rajeswari.
 dev_addr: "127.0.0.1:8001"
 
 nav:
-  - "index.md"
-  - 'about.md'
-  - Conditions: 'conditions.md'
-  - Contact: 'contact.md'
-
+  - Home: "index.md"
+  - "about.md"
+  - Testimonials:
+      - "Custom ID": '/#testimonials'
+  - Conditions: "conditions.md"
+  - Contact: "contact.md"
 
 theme:
-  name: material 
+  name: material
   custom_dir: overrides
   features:
     - navigation.expand
@@ -58,13 +59,12 @@ markdown_extensions:
   - def_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_generator:
+        !!python/name:materialx.emoji.to_svg # footer links and variables
 
-# footer links and variables
 extra:
   social:
     - icon: fontawesome/brands/twitter
       # link: https://twitter.com/medic_ode
     - icon: fontawesome/brands/instagram
       # link: https://www.instagram.com/medic_ode/
-
