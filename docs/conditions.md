@@ -9,6 +9,7 @@ In addition to this, Miss Rajeswari offers treatments for the following conditio
 - [Irregular periods](https://www.nhs.uk/conditions/irregular-periods/){:target="_blank"}
 - [Prolonged or heavy periods](https://www.nhs.uk/conditions/heavy-periods/){:target="_blank"}
 - [Pelvic pain](https://www.nhs.uk/conditions/pelvic-pain/){:target="_blank"}
+- [Endometriosis](https://www.nhs.uk/conditions/endometriosis/){:target="_blank"}
 - [Premenstrual tension](https://www.nhs.uk/conditions/pre-menstrual-syndrome/){:target="_blank"}
 
 ## Hormonal disorders
