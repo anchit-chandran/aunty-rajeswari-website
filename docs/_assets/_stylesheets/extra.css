@@ -113,8 +113,7 @@ footer.md-footer {
 }
 
 img.img-lg {
-  max-width: 48%;
-  box-shadow: 14px 20px var(--main-light);
+  max-width: 70%;
 }
 
 /* ANIMATIONS */
@@ -175,9 +174,6 @@ a.custom_button:active {
     }
     .custom_button {
       margin: 0em auto;
-    }
-    img.img-lg.img-sm {
-      box-shadow: 7px 10px var(--main-light);
     }
     .main_text_col {
       text-align: center;
