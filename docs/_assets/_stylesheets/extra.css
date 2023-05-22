@@ -259,6 +259,8 @@ a.custom_button:active {
   background-color: red;
 }
 
+
+
 p.card-text {
   color: var(--muted);
 }

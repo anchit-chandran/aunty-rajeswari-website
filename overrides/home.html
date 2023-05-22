@@ -82,7 +82,7 @@
 
       </div>
       <div class="col-12 px-4 px-md-0">
-        <div id="carouselTestimonialsIndicators" class="carousel slide">
+        <div id="carouselTestimonialsIndicators" class="carousel slide" data-bs-ride="carousel">
 
           <ol class="carousel-indicators">
             <li data-bs-target="#carouselTestimonialsIndicators" data-bs-slide-to="0" class="active" aria-current="true"
@@ -92,7 +92,7 @@
           </ol>
 
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="3500">
               <div class="row">
                 <div class="col-md-6 mb-3 mb-md-0">
                   <div class="card">
@@ -202,7 +202,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="3500">
               <div class="row">
                 <div class="col-md-6 mb-3 mb-md-0">
                   <div class="card">
@@ -314,7 +314,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="3500">
               <div class="row">
                 <div class="col-md-6 mb-3 mb-md-0">
                   <div class="card">
@@ -453,5 +453,7 @@
 <!-- Application footer -->
 {% block footer %}{{ super() }}{% endblock %} {% block scripts %}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+</script>
+
 {%endblock%}
