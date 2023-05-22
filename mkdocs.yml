@@ -17,8 +17,7 @@ dev_addr: "127.0.0.1:8001"
 nav:
   - Home: "index.md"
   - "about.md"
-  - Testimonials:
-      - "Custom ID": '/#testimonials'
+  - Testimonials: '/#testimonials'
   - Conditions: "conditions.md"
   - Contact: "contact.md"
 
