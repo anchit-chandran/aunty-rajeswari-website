@@ -18,5 +18,3 @@ After completing her higher training in North West London, Miss Rajeswari was ap
 Miss Rajeswari has since been awarded the ‘Ashford and St. Peter’s Clinical Excellence Award’ twice for her outstanding patient care.
 
 During this period, Miss Rajeswari also played an active role in educating trainees and students. Miss Rajeswari was selected to author a chapter in the Oxford Handbook of Obstetrics and Gynaecology.
-
-Miss Rajeswari has been awarded the Clinical Excellence Award twice for outstanding patient care.
