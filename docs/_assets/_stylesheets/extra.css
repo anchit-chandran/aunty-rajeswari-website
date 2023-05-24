@@ -113,8 +113,7 @@ footer.md-footer {
 }
 
 img.img-lg {
-  max-width: 48%;
-  box-shadow: 14px 20px var(--main-light);
+  max-width: 90%;
 }
 
 /* ANIMATIONS */
@@ -133,6 +132,7 @@ img.img-lg {
 
 .masthead_description {
   animation: fadeIn 3s;
+  text-align: justify;
 }
 
 .button_contact_wrapper {
@@ -170,14 +170,14 @@ a.custom_button:active {
 
 /* UP TO MD SIZE */
 @media (max-width: 768px) {
+    .headshot_col.align-items-end {
+      align-items: center !important;
+    }
     .headshot_col.h-75 {
       height: 40% !important;
     }
     .custom_button {
       margin: 0em auto;
-    }
-    img.img-lg.img-sm {
-      box-shadow: 7px 10px var(--main-light);
     }
     .main_text_col {
       text-align: center;
@@ -211,6 +211,9 @@ a.custom_button:active {
     }
     .masthead_description {
       text-align: justify;
+    }
+    img.img-lg.img-sm {
+      max-width: 43% !important;
     }
   }
 

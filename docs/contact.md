@@ -1,5 +1,10 @@
 # Getting in touch
 
+For any specific queries, you can contact Miss Rajeswari's secretary, Suzi, on:
+
+- Telephone: 07534362607
+- Email: secretary.d.rajeswari@gmail.com
+
 Miss Rajeswari provides her services at four hospitals:
 
 1. Runnymede Hospital, KT15 0RQ
