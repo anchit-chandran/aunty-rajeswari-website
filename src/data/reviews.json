@@ -1,0 +1,38 @@
+[
+  {
+    "quote": "Dr rajeswari at Nuffield hospital in Woking, couldn’t have been more helpful! She is very caring and very professional. The service from start to finish has been outstanding. With on going issues I finally have some answers after 9 years of fighting.  She treated me with upmost respect and dignity and being a woman with these sort of issues, my dignity was upmost taken into consideration and I didn’t feel uncomfortable at any stage. So thank you from the bottom on my heart.",
+    "author": "NHS Patient",
+    "location": "Nuffield Health Woking Hospital",
+    "date": "8th July 2025",
+    "rating": 5,
+    "subRatings": {
+      "Recommend": 5,
+      "Trust": 5,
+      "Listening": 5
+    }
+  },
+  {
+    "quote": "This Doctor was very patient and understanding with me throughout the visit. She was very knowledgeable about my issue. She listened carefully to my concerns  and as a result gave me the best option for my situation as an individual.  I felt understood and genuine care at this appointment.",
+    "author": "NHS Patient",
+    "location": "The Runnymede Hospital - part of Circle Health Group",
+    "date": "30th June 2025",
+    "rating": 5,
+    "subRatings": {
+      "Recommend": 5,
+      "Trust": 5,
+      "Listening": 5
+    }
+  },
+  {
+    "quote": "I first went to see Miss Rajeswari seven years ago and she has been my gynaecologist ever since. She is the ultimate professional. Obviously very experienced and highly knowledgable. But in addition she is very sensitive to your worries and needs and takes the time to listen and explain fully everything that is needed. Which, in turn, takes a great of the stress and anxiety out of a situation where issues are of an intimate and delicate nature. She goes above and beyond when you need extra support.",
+    "author": "Private Patient",
+    "location": "The Runnymede Hospital - part of Circle Health Group",
+    "date": "27th June 2025",
+    "rating": 5,
+    "subRatings": {
+      "Recommend": 5,
+      "Trust": 5,
+      "Listening": 5
+    }
+  }
+]
